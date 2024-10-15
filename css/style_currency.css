@@ -1,0 +1,79 @@
+@font-face{
+    font-family: samsungone;
+    src:url(../samsungone/SamsungOne-400.ttf);
+    
+}
+*{
+    font-family: samsungone;
+    scroll-behavior: smooth;
+}
+body{ 
+    margin: 0;
+}
+header{
+    height: 75px;
+}
+main{
+    margin: 40px 20px 0 20px;
+    text-align: center;
+}
+h1{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+input, textarea {
+    
+    width: 20%;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+.button_div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+.us,.eu{
+    border: 1px inset rgba(255, 0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 7px;
+    border-radius: 7px;
+    transition: 0.1s;
+}
+.eu:hover{
+    border: 1px inset rgb(25, 0, 255);
+}
+.us:hover{
+    border: 1px inset red;
+}
+.us img{
+    position: relative;
+    top: 2px;
+}
+form label img{
+    position: relative;
+    top: 10px;
+}
+.convert_button{ 
+    font-size: 16px;
+    border: 0;
+    width: fit-content;
+    color: black;
+    background-color: #4caf4f00;
+    border-radius: 7px;
+    padding: 7px;
+}
+.frontface{
+    display: flex;
+    flex-direction: column;
+    gap :20px;
+}
+input[type="text"]:focus,input[type="number"]:focus,input[type="email"]:focus,textarea:focus {
+    border-color: #ffcc00;
+    outline: none;
+}
