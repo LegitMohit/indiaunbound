@@ -774,6 +774,9 @@ h4 {
     .navbar ul{
         padding: 22px 22px 0 0;
     }
+    .places-container{
+        box-shadow: none;
+    }
 }
 @media only screen and (max-width: 375px){
     .intro-background-outer-text p {
