@@ -631,7 +631,6 @@ h4 {
         overflow-y: hidden;
     }
     .places-row_upper,.places-row_lower{
-        pointer-events: none;
         display: flex;
         flex-direction: row;
         align-content: center;
